@@ -90,7 +90,7 @@ export function ReceiptForm({ data, onUpdate }: ReceiptFormProps) {
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 border-1 rounded-lg ">
       <Card className="w-full">
         <CardHeader>
           <CardTitle>Receipt Details</CardTitle>

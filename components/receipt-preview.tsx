@@ -187,7 +187,7 @@ export function ReceiptPreview({ data }: ReceiptPreviewProps) {
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 z-60">
       <div className="flex items-center justify-between">
         <h3 className="text-lg font-semibold">Receipt Preview</h3>
         <Button onClick={downloadPDF} className="gap-2">
