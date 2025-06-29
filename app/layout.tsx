@@ -10,6 +10,9 @@ export const metadata = {
   keywords: "receipt generator, fake receipt, custom receipt, free receipt maker, online receipt tool",
   authors: [{ name: "Erdene", url: "https://fake-receipt-gen.vercel.app" }],
   themeColor: "#000000",
+  other: {
+    "google-adsense-account": "",
+  },
   icons: {
     icon: "/favicon.ico",
   },
@@ -45,6 +48,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5002064208204178"
+        crossOrigin="anonymous">
+
+      </script>
+  </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
